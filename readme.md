@@ -9,7 +9,7 @@
 
 Исполняемые файлы доступны только для Windows и находятся в папке ``executables``. Их можно просто скачать, запускать и использовать. Под Linux можно запустить, установив зависимости из ``requirements.txt``: 
 ```bash
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-python main.py
+python3 -m venv venv && source venv/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
 ```
